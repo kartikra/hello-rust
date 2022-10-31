@@ -1,6 +1,5 @@
 
 
-
 pub(super) fn demo_tuple() {
 
     // Tuple 
@@ -77,17 +76,4 @@ pub(super) fn demo_string() {
     }
 
 }
-
-
-// Vector
-
-
-
-
-// Hashmap
-
-
-
-
-// Hashset
 
