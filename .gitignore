@@ -62,3 +62,7 @@ target/
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# Ignore hamlet.txt
+# download from here for testing - https://gist.github.com/provpup/2fc41686eab7400b796b
+src/basics/hamlet.txt 

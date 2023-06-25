@@ -24,7 +24,7 @@ rustup override set nightly-2021-04-13
 
 - [Refer Installers](https://forge.rust-lang.org/infra/other-installation-methods.html#standalone-installers)
 - [Refer Setup linux all users](https://github.com/rust-lang/rustup/issues/1085#issuecomment-296604244)
-- Set latest Rust Version and install using folliowing command as root
+- Set latest Rust Version and install using following command as root
 
 ``` sh
 export RUSTUP_HOME=/opt/rust

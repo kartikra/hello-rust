@@ -7,6 +7,7 @@ mod basics;
 mod primitive;
 mod control_flow;
 mod struct_trait;
+mod word_count;
 
 // use std::collections::HashMap;
 // search https://crates.io/ for package
@@ -15,12 +16,11 @@ mod struct_trait;
 fn main() {
     println!("Welcome, hello-rust training!");
 
-
-
         // Do while loop with break
         loop {
 
             println!("\nMake your selection. Press anything else to exit\n");
+            println!("0 - word count");
             println!("1 - learn basics");
             println!("2 - learn to use lib.rs");
             println!("3 - scalar data-types");
@@ -40,6 +40,11 @@ fn main() {
     
 
             match selection.trim() {
+                "0" =>  {
+                    // run wordcount
+                    let _ = word_count::read_file("src/basics/poem.txt");
+                },
+
                 "1" =>  {
                     // calling a module
                     basics::run_demo();
